@@ -11,8 +11,8 @@ Telas grandes = acima de 1200px
 
 @media screen and (min-width: 768px) and (max-width: 1200px){
     header div#img {
-        max-width: 50%;
-        height: 70%;
+        max-width: 400px;
+        height: 300px;
     } 
 
     header p {
@@ -22,12 +22,12 @@ Telas grandes = acima de 1200px
 }
 
 @media screen and (min-width: 1200px) {
-    header {
-        height: 650px;
-    }
     header div#img {
-        width: 50%;
-        height: 80%;
+        width: 300px;
+        height: 300px;
     } 
 
+    main {
+        width: 80%;
+    }
 }
