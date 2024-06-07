@@ -80,6 +80,10 @@ main section#section_button div {
     border-radius: 30px;
 }
 
+main section#section_button div:hover {
+    background-color: black;
+}
+
 main section#section_button div a {
     color: white;
     text-decoration: none;
