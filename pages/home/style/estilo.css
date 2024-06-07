@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+/* FIRST MOBILE */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    border-radius: 50%;
+    margin: 20px auto;
+    color: rgb(173, 173, 173);
+}
+
+
+/* HEADER */
+header {
+    height: 125px;
+    background-color: rgb(217, 217, 217);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 0 0 10px 10px;
+}
+
+header div {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+header div img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+h1 {
+    width: 125px;
+    font-size: 25px;
+}
+
+
+/* MAIN */
+
+main {
+    width: 100%;
+    padding: 10px;
+}
+
+main span a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+main section {
+    margin: 30px 0;
+}
+
+main div#foto {
+    width: 100%;
+    height: 280px;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.365);
+    background: url(../../certificados/img/git-github.png) center;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+main div#foto p {
+    background-color: rgba(128, 128, 128, 0.419);
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+main div#foto p span {
+    color: red;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+main div#foto a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgb(54, 98, 232);
+    height: 45px;
+    width: 100px;
+    padding: 12px 0;
+    text-align: center;
+    border-radius: 30px;
+}
+
+main div#foto a:hover {
+    background-color: rgb(58, 106, 250);
+}
+
+main article {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    margin-top: 10px;
+}
+
+main article div.icon {
+    background-color: rgb(241, 241, 241);    
+    text-align: center;
+    width: 80px;
+    height: 70px;
+    border-radius: 10px;
+    box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.365);
+}
+
+main article div.icon span{
+    font-size: 30px;
+    margin: 25%;
+}
+
+main article h3 {
+    width: 150px;
+    text-align: center;
+}
+
+main article a {
+    color: rgb(54, 98, 232);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgb(222, 222, 222);   
+    height: 45px;
+    width: 100px;
+    padding: 2% 0;
+    text-align: center;
+    border-radius: 30px;
+}
+
+main article a:hover  {
+    background-color: rgb(198, 198, 198);  
+}
+
+hr.row {
+    width: 80%;
+    margin: 10px auto;
+}
+
+#last-hr {
+    margin-bottom: -40px;
+}
+
+/* FOOTER */
+footer {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a {
+    color: #166295;
+    text-decoration: none;
+    transition-duration: 2s;
+}

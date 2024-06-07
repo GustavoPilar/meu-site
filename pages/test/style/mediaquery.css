@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/* TYPICAL DEVICES BREAKPOINTS
+------------------------------
+telas pequenas = até 600px
+Celular = 600px até 768px
+tablet = 768px até 992px
+desktops = 992 até 1200px
+Telas grandes = acima de 1200px
+------------------------------
+*/
+
+@media screen and (min-width: 768px) {
+
+    header {
+        justify-content: space-around;
+    }
+    main {
+        width: 800px;
+        margin: auto;
+    }
+
+    main div#foto {
+        height: 400px;
+        background-size: cover;
+    }
+}
