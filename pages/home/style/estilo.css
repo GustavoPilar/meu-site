@@ -37,6 +37,7 @@ header div {
     height: 70px;
     border-radius: 50%;
     overflow: hidden;
+    border: 1px solid black;
 }
 
 header div img {
@@ -88,12 +89,14 @@ main div#foto p {
     padding: 5px 10px;
     border-radius: 20px;
     font-size: 25px;
+    text-shadow: 1px 1px white;
 }
 
 main div#foto p span {
     color: red;
     font-weight: bold;
     margin-right: 5px;
+    text-shadow: none;
 }
 
 main div#foto a {
