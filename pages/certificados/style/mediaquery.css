@@ -9,50 +9,43 @@ desktops = 992 até 1200px
 Telas grandes = acima de 1200px
 */
 
-@media screen and (max-width: 768px) {
-    main {
-        text-align: center;
-        width: 100%;
-        height: 100%;
-        margin: 10px auto;
+@media screen and (max-width: 767px) {
+
+    header {
+        height: 100px;
+        padding: 0 10px;
     }
-    
-    main span a {
-        color: black;
-        text-decoration: none;
-        font-size: 25px;
-        text-transform: capitalize;
-    }
-    
+
     main section {
-        width: 90%;
         display: block;
     }
-    
+
     main section article {
-        width: 90%;
-        height: 450px;
+        height: 370px;
+        width: 300px;
         margin: 15px auto;
-        border-radius: 10px;
-        padding: 10px;
     }
-    
-    main section article h2 {
-        text-transform: uppercase;
-        margin-bottom: 10px;
-    }
-    
+
     main section article div {
         width: 100%;
-        height: 300px;
+        height: 250px;
         margin: 10px auto;
         border: 2px solid black;
         border-radius: 10px;
     }
-    
-    main section article div img {
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    main section {
+        width: 95%;
+    }
+
+    main section article {
+        height: 450px;
+        width: 350px;
+    }
+
+    main section article div {
         width: 100%;
-        height: 100%;
-        border-radius: 10px;
     }
 }

@@ -15,6 +15,7 @@ Telas grandes = acima de 1200px
         width: 500px;
     }
     main section div#foto {
-        width: 350px;
+        width: 300px;
+        height: 300px;
     }
 }
