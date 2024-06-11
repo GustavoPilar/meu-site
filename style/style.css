@@ -49,7 +49,7 @@ header p {
 main {
     margin: auto;
     width: 100%;
-    height: 336px;
+    height: 200px;
     display: flex;
     justify-content: stretch;
 }
