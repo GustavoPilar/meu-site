@@ -19,7 +19,7 @@ header {
     background-color: rgb(217, 217, 217);
     padding: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);
     border-radius: 0 0 10px 10px;
@@ -67,7 +67,7 @@ main div a {
 
 main section {
     width: 80%;
-    margin: auto;
+    margin: 20px auto;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
