@@ -1,52 +1,42 @@
 @charset "UTF-8";
 
-/* TYPICAL DEVICES BREAKPOINTS
-------------------------------
-telas pequenas = até 600px
-Celular = 600px até 768px
-tablet = 768px até 992px
-desktops = 992 até 1200px
-Telas grandes = acima de 1200px
-*/
+@media screen and (max-width: 768px) {
 
-@media screen and (max-width: 767px) {
-
-    header {
-        height: 100px;
-        padding: 0 10px;
-        justify-content: space-between;
-    }
-
-    main section {
+    header, footer {
         display: block;
+        height: 200px;
     }
 
-    main section article {
-        height: 370px;
-        width: 300px;
-        margin: 15px auto;
-    }
-
-    main section article div {
-        width: 100%;
-        height: 250px;
+    div.logo {
         margin: 10px auto;
-        border: 2px solid black;
-        border-radius: 10px;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    main section {
-        width: 95%;
+        height: 100px;
     }
 
-    main section article {
-        height: 450px;
-        width: 350px;
-    }
-
-    main section article div {
+    .links {
         width: 100%;
+        height: 80px;
+    }
+
+    .links a {
+        width: 70px;
+        font-size: .7rem;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    main section h2, main section p, main span#comeback a {
+        margin-left: 20px;
+    }
+
+    main div.picture {
+        width: 90%;
+        height: 350px;
+        background-position: center left;
+    }
+
+    main div.picture p.titles {
+        font-size: 1.2rem;
     }
 }
