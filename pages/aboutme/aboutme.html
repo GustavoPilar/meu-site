@@ -5,74 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- LINKS CSS -->
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/mediaquery.css">
     <link rel="stylesheet" href="../../icon/css/all.min.css">
 
-    <!-- GOOGLE ICONS -->
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="shortcut icon" href="../../logo.svg" type="image/x-icon">
 
     <title>Sobre mim | Gustavo Pilar</title>
 </head>
 <body>
     <header>
-        <h1><i class="fa-solid fa-user"></i></h1>
-        
-        <p>GustavoPilar</p>
-        
-        <div>
-            <ul>
-                <li><a href="../aboutme/aboutme.html">Perfil</a></li>
-            </ul>
-            <a href="../aboutme/aboutme.html"><img src="../../img/Eu.jpg" alt="Minha foto" id="eu"></a>
+        <div class="logo">
+            <img src="../../logo.svg" alt="Logo" class="logo-img">
         </div>
+        <ul id="links-header" class="links">
+            <li><a href="pages/home/home.html">Home</a></li>
+            <li><a href="../aboutme/aboutme.html" id="currently">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
     </header>
+    <hr>
     <main>
-        <div>
-            <a href="../home/home.html"><i class="fa-solid fa-chevron-left"></i> Voltar</a>
-        </div>
-        <section>
-            <div id="foto">
-                <img src="img/eu-perfil.jpg" alt="Minha foto">
+        <section class="information" id="information-top">
+            <div id="image-me">
+                <img src="img/eu-perfil.jpg" alt="Minha foto de perfil">
             </div>
-            <article>
-                <h2>Olá, me chamo Gustavo Henrique. Prazer em te conhecer!</h2>
+            <div id="information-me">
+                <h1>Gustavo Pilar</h1>
                 <p>
-                    Sou estudande da área de Engenharia de Software e tenho como objetivo de ser um profissional de desenvolvimento de Software/Web. Abaixo está listados meus conhecimentos:
+                    Olá, tudo bem? Me chamo Gustavo Pilar. Estou estudando sobre Desenvolvimento Web, e no momento estou no 4° período da minha faculdade, cursando a área de Engenharia de Software.
                 </p>
-            </article>
-            <article class="list">
-                <div class="icon"><i class="fa-brands fa-html5"></i></div>
-                <h3>HTML5</h3>
-            </article>
-            <article class="list">
-                <div class="icon"><i class="fa-brands fa-css3-alt"></i></div>
-                <h3>CSS3</h3>
-            </article>
-            <article class="list">
-                <div class="icon"><i class="fa-brands fa-java"></i></div>
-                <h3>JAVA</h3>
-            </article>
-
-            <article>
+            </div>
+        </section>
+        <section class="information" id="information-middle">
+            <div id="information-me">
                 <p>
-                    
+                    Pretendo ser, um dia, programador de sistemas e para isso estou estudando sobre Desenvolvimento Web para poder entrar no mercado e poder mostrar do que sou capaz.
                 </p>
-            </article>
-            <article>
-                <h2>Experiências de Trabalho</h2>
-                <p>
-                    No momento não possuo nenhuma experiência na área de desenvolvimento de sistemas...
-                </p>
-            </article>
+            </div>
+            <div id="list-skills">
+                <ul>
+                    <li><span class="fa-brands fa-html5"></span> HTML</li>
+                    <li><span class="fa-brands fa-css3-alt"></span> CSS3</li>
+                    <li><span class="fa-brands fa-java"></span> JAVA</li>
+                </ul>
+            </div>
+        </section>
+        <section id="information-bottom">
+            <div id="contact">
+                <p>Gostou da minha página e quer entrar em contato?</p>
+                <a href="#">Contato &rarr;</a>
+            </div>
         </section>
     </main>
 <hr>
     <footer>
-        <p>
-            Copyright &copy; <a href="https://github.com/gustavopilar" target="_blank">GustavoPilar</a>
-        </p>
+        <div class="logo">
+            <img src="../../logo.svg" alt="Logo" class="logo-img">
+        </div>
+        <ul id="links-footer" class="links">
+            <li><a href="https://www.instagram.com/_devguh/" target="_blank">Instagram</a></li>
+            <li><a href="https://github.com/GustavoPilar" target="_blank">Github</a></li>
+        </ul>
     </footer>
 </body>
 </html>
