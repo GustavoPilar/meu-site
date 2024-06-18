@@ -23,7 +23,7 @@ header, footer {
 }
 
 hr {
-    width: 80%;
+    width: 100%;
     margin: auto;
     border-radius: 50%;
 }
@@ -111,13 +111,6 @@ header ul#links-header li a:hover {
 main {
     width: 850px;
     margin: auto;
-}
-
-main span#comeback a {
-    color: var(--cor1);
-    text-decoration: none;
-    font-size: 1.5rem;
-    text-transform: capitalize;
 }
 
 main div.picture {
