@@ -1,22 +1,47 @@
-@charset "UTF-8";
-
-/* TYPICAL DEVICES BREAKPOINTS
-------------------------------
-telas pequenas = até 600px
-Celular = 600px até 768px
-tablet = 768px até 992px
-desktops = 992 até 1200px
-Telas grandes = acima de 1200px
--------------------------------
-*/
-
-@media screen and (min-width: 768px) {
-    main {
-        width: 800px;
+@media screen and (max-width: 768px) {
+    header, footer {
+        display: block;
+        height: 200px;
     }
-    main section div#foto {
-        width: 400px;
-        height: 400px;
-        border-radius: 100px 150px;
+
+    div.logo {
+        margin: 10px auto;
+        height: 100px;
     }
+
+    .links {
+        width: 100%;
+        height: 80px;
+    }
+
+    .links a {
+        width: 70px;
+        font-size: .7rem;
+    }
+
+    main section.information {
+        display: block;
+        width: 100%;
+        padding: .0;
+    }
+
+    main section#information-top div#image-me {
+        margin: auto;
+        border-radius: 50px;
+        width: 70%;
+        height: 50%;
+    }
+
+    main section.information div#information-me {
+        width: 100%;
+    }
+
+    main section.information div#list-skills {
+        width: 100%;
+    }
+
+    main section#information-bottom {
+        height: 100px;
+    }
+        
 }
