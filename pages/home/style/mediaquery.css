@@ -23,12 +23,20 @@
     }
 
     main {
-        width: 850px;
-        margin: auto;
+        width: 100%;
     }
 
-    main div#foto {
-        height: 400px;
-        background-size: cover;
+    main section h2, main section p, main span#comeback a {
+        margin-left: 20px;
+    }
+
+    main div.picture {
+        width: 90%;
+        height: 350px;
+        background-position: center left;
+    }
+
+    main div.picture p.titles {
+        font-size: 1.2rem;
     }
 }
