@@ -15,6 +15,13 @@
     font-family: "Monserrat" ,Arial, Helvetica, sans-serif;
 }
 
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 80px;
+}
+
 hr {
     width: 80%;
     margin: auto;
@@ -51,13 +58,6 @@ div.logo img.logo-img {
     letter-spacing: .2rem;
     width: 100px;
     height: 100%;
-}
-
-header, footer {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    height: 100px;
 }
 
 /* Header */
