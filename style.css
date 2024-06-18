@@ -68,17 +68,6 @@ header ul#links-header li a {
     border-radius: 5px;
 }
 
-header ul#links-header li a#currently {
-    background-color: var(--cor1);
-    color: var(--cor5);
-}
-
-header ul#links-header li a#currently:hover {
-    background-color: var(--cor5);
-    color: var(--cor1);
-    transition: background-color 1.5s;
-}
-
 header ul#links-header li a:hover {
     background-color: var(--cor1);
     color: var(--cor5);

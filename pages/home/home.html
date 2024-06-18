@@ -5,29 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- LINKS CSS -->
-    <link rel="stylesheet" href="style/estilo.css">
-    <link rel="stylesheet" href="style/mediaquery.css">
+    <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="../../icon/css/all.min.css">
 
-    <!-- GOOGLE ICONS -->
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="shortcut icon" href="../../logo.svg" type="image/x-icon">
 
     <title>Home | Gustavo Pilar</title>
 </head>
 <body>
     <header>
-        <h1><i class="fa-solid fa-house"></i></h1>
-        <p>GustavoPilar</p>
-        
-        <div>
-            <ul>
-                <li><a href="../aboutme/aboutme.html">Perfil</a></li>
-            </ul>
-            <a href="../aboutme/aboutme.html"><img src="img/Eu.jpg" alt="Minha foto" id="eu"></a>
+        <div class="logo">
+            <img src="../../logo.svg" alt="Logo" class="logo-img">
         </div>
+        <ul id="links-header" class="links">
+            <li><a href="pages/home/home.html" id="currently">Home</a></li>
+            <li><a href="pages/aboutme/aboutme.html">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
     </header>
+    <hr>
     <main>
+        <span id="comeback"><a href="../../index.html" id="voltar"><i class="fa-solid fa-chevron-left"></i> Voltar</a></span>
+        <section>
+            <h2>Projetos</h2>
+            <p>Alguns de meus projetos <span class="fa-solid fa-file-contract"></span></p>
+                <div class="picture" style="background-image: url(img/project.png);">
+                    <p class="titles">
+                        <span class="fa-solid fa-file-contract"></span><b>Projetos</b>
+                    </p>
+                    <a href="../projects/projects.html">ver mais &rarr;</a>
+                </div>
+        </section>
+        <hr>
+        <section>
+        <h2>Certificados</h2>
+        <p>Algumas das minhas conquistas <i class="fa-solid fa-star"></i></p>
+            <div class="picture" style="background-image: url(../certificados/img/git-github.png);">
+                <p class="titles">
+                    <span style="color: red;" class="fa-brands fa-git-alt"></i></span><b>Git e Github</b>
+                </p>
+                <a href="../certificados/diplomas.html" >ver mais &rarr;</a>
+            </div>
+        </section>
+        <hr>
+        <section>
+        <h2>Github</h2>
+        <p>Meu github <i class="fa-brands fa-github"></i></p>
+            <div class="picture" style="background-image: url(img/github-me.png);">
+                <p class="titles" style="color: white; text-shadow: none;">
+                    <span class="fa-brands fa-github"></i></span><b>Git e Github</b>
+                </p>
+                <a href="https://github.com/GustavoPilar" target="_blank">ver mais &rarr;</a>
+            </div>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <div class="logo">
+            <img src="../../logo.svg" alt="Logo" class="logo-img">
+        </div>
+        <ul id="links-footer" class="links">
+            <li><a href="#" id="currently">Instagram</a></li>
+            <li><a href="https://github.com/GustavoPilar" target="_blank">Github</a></li>
+        </ul>
+    </footer>
+    <!-- <main>
         <span><a href="../../index.html" id="voltar"><i class="fa-solid fa-chevron-left"></i> Voltar</a></span>
         <section>
             <h2>Certificados</h2>
@@ -39,7 +81,7 @@
                     <a href="../certificados/diplomas.html">ver</a>
                 </div>
         </section>
-<hr>
+    <hr>
         <section>
             <h2>Nevagação</h2>
             <article>
@@ -47,7 +89,7 @@
                 <h3>Sobre mim</h3>
                 <a href="../aboutme/aboutme.html" rel="next">Ver mais</a>
             </article>
-<hr class="row">
+    <hr class="row">
             <article>
                 <div class="icon"><span class="fa-brands fa-github"></span></div>
                 <h3>Repositórios</h3>
@@ -61,11 +103,7 @@
             </article>
 <hr id="last-hr">
         </section>
-    </main>
-    <footer>
-        <p>
-            Copyright &copy; <a href="https://github.com/gustavopilar" target="_blank">GustavoPilar</a>
-        </p>
-    </footer>
+    </main> -->
+    
 </body>
 </html>

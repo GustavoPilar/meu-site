@@ -1,13 +1,18 @@
-@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --cor1: #252525;
+    --cor2: #3E3E3E;
+    --cor3: #717171;
+    --cor4: #A5A5A5;
+    --cor5: #F2F2F2;
+}
 
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Monserrat" ,Arial, Helvetica, sans-serif;
 }
 
 header, footer {
@@ -18,9 +23,21 @@ header, footer {
 }
 
 hr {
+    width: 80%;
+    margin: auto;
     border-radius: 50%;
-    margin: 20px auto;
-    color: rgb(173, 173, 173);
+}
+
+section {
+    margin: 30px auto;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    box-sizing: border-box;
 }
 
 div.logo {
@@ -51,6 +68,22 @@ div.logo img.logo-img {
     height: 100%;
 }
 
+div.icon {
+    background-color: rgb(241, 241, 241);    
+    text-align: center;
+    width: 80px;
+    height: 70px;
+    border-radius: 10px;
+    box-shadow: 2px 1px 10px rgba(37, 37, 37, .365);
+}
+
+div.icon span{
+    font-size: 30px;
+    margin: 25%;
+}
+
+/* Header */
+
 header ul#links-header li a {
     padding: 1rem;
     border: 1px solid var(--cor1);
@@ -74,97 +107,63 @@ header ul#links-header li a:hover {
     transition: background-color 1.5s;
 }
 
+/* Main */
 main {
-    width: 100%;
-    padding: 10px;
+    width: 850px;
+    margin: auto;
 }
 
-main span a {
-    color: black;
+main span#comeback a {
+    color: var(--cor1);
     text-decoration: none;
-    font-size: 25px;
+    font-size: 1.5rem;
     text-transform: capitalize;
 }
 
-main section {
-    margin: 30px 0;
-}
-
-main div#foto {
+main div.picture {
     width: 100%;
-    height: 280px;
-    margin: 10px auto;
+    height: 400px;
+    margin: 15px auto;
     padding: 5px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.516);
-    background: url(../../certificados/img/git-github.png) center;
+    box-shadow: 0px 0px 10px 2px rgba(37, 37, 37, 0.516);
+    background-position: center;
     background-size: cover;
     display: flex;
     align-items: end;
     justify-content: space-between;
 }
 
-main div#picture p {
+
+main div.picture p.titles {
     background-color: rgba(128, 128, 128, 0.419);
-    padding: 5px 10px;
+    padding: .5rem .7rem;
     border-radius: 20px;
-    font-size: 25px;
+    font-size: 1.8rem;
     text-shadow: 1px 1px white;
 }
 
-main div#picture p span {
-    color: red;
+main div.picture p.titles span {
     font-weight: bold;
     margin-right: 5px;
     text-shadow: none;
 }
 
-main div#picture a {
-    color: white;
+main div.picture a {
+    background-color: var(--cor1);
+    color: var(--cor5);
     text-decoration: none;
     text-transform: uppercase;
-    background-color: rgb(54, 98, 232);
-    height: 45px;
-    width: 100px;
-    padding: 12px 0;
+    padding: .9rem 1.5rem;
     text-align: center;
     border-radius: 30px;
 }
 
-main div#picture a:hover {
-    background-color: rgb(58, 106, 250);
+main div.picture a:hover {
+    background-color: var(--cor2);
 }
+/* Footer */
 
-main article {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 100px;
-    margin-top: 10px;
-}
-
-main article div.icon {
-    background-color: rgb(241, 241, 241);    
-    text-align: center;
-    width: 80px;
-    height: 70px;
-    border-radius: 10px;
-    box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.365);
-}
-
-main article div.icon span{
-    font-size: 30px;
-    margin: 25%;
-}
-
-hr.row {
-    width: 80%;
-    margin: 10px auto;
-}
-
-#last-hr {
-    margin-bottom: -40px;
-}
 footer ul#links-footer a:hover {
     text-decoration: underline;
 }
