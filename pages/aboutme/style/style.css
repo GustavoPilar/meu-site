@@ -135,14 +135,14 @@ main section#information-top div#image-me img {
     height: 100%;
 }
 
-main section.information div#information-me {
+main section.information div.information-me {
     width: 40%;
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
 }
 
-main section.information div#information-me h1 {
+main section.information div.information-me h1 {
     font-size: 2em;
     text-transform: uppercase;
     text-decoration: overline underline;
@@ -151,7 +151,7 @@ main section.information div#information-me h1 {
     margin-bottom: 10px;
 }
 
-main section.information div#information-me p {
+main section.information div.information-me p {
     padding: 55px;
     border: 1px solid var(--cor1);
     border-radius: 50px 70px;

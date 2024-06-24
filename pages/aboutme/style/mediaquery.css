@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     header, footer {
         display: block;
         height: 200px;
@@ -32,7 +32,7 @@
         height: 50%;
     }
 
-    main section.information div#information-me {
+    main section.information div.information-me {
         width: 100%;
     }
 
